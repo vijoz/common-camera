@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HandWriteView">
+        <!--画笔颜色-->
+        <attr name="paintColor" format="color"/>
+        <!--画板的宽-->
+        <attr name="paintMaxWidth" format="dimension"/>
+        <!--画板的高-->
+        <attr name="paintMinWidth" format="dimension"/>
+    </declare-styleable>
+    <!--圆角textView-->
+    <declare-styleable name="ShapeButton">
+        <attr name="strokeColor" format="color"/> <!--默认边框的颜色  -->
+        <attr name="selectStrokeColor" format="color"/> <!--选中边框的颜色  -->
+        <attr name="pressedColor" format="color"/> <!--选中背景的颜色  -->
+        <attr name="defaultColor" format="color"/> <!--默认背景的颜色  -->
+        <attr name="isRipple" format="boolean"/> <!--是否设置水波纹效果  -->
+        <attr name="parameter" format="float"/> <!--颜色变亮或变浅参数默认0.2  -->
+        <attr name="strokeWidth" format="dimension"/> <!--边框的宽度 -->
+        <attr name="roundRadius" format="dimension"/> <!--圆角大小 -->
+        <attr name="topLeftRadius" format="dimension"/> <!--左上圆角大小 -->
+        <attr name="topRightRadius" format="dimension"/> <!--右上圆角大小 -->
+        <attr name="bottomLeftRadius" format="dimension"/> <!--左下圆角大小 -->
+        <attr name="bottomRightRadius" format="dimension"/> <!--右下圆角大小 -->
+    </declare-styleable>
+    <!--EnhanceTabLayout-->
+    <declare-styleable name="EnhanceTabLayout">
+        <attr name="tab_Mode" format="enum">
+            <enum name="mode_fixed" value="1"/>
+            <enum name="mode_scrollable" value="2"/>
+        </attr>
+        <attr name="tabIndicatorColor" format="color"/>
+        <attr name="tabSelectTextColor" format="color"/>
+        <attr name="tabTextColor" format="color"/>
+        <attr name="tabIndicatorHeight" format="dimension"/>
+        <attr name="tabIndicatorWidth" format="dimension"/>
+        <attr name="tabTextSize" format="dimension"/>
+    </declare-styleable>
+</resources>

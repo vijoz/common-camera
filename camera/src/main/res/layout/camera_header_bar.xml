@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:background="#aa111213"
+              android:layout_height="45dp">
+
+    <View
+            android:layout_width="44.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="4.0"/>
+    <ImageView
+            android:id="@+id/iv_flash_mode"
+            android:layout_width="44.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:clickable="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/camera_flash_on"
+    />
+    <ImageView
+            android:id="@+id/iv_switch_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="8dp"
+            android:clickable="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/camera_top_bar_sw_camera"/>
+
+
+</LinearLayout>

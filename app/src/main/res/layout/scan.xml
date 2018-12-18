@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+    <lib.android.timingbar.com.camera.ScanCameraPreview
+            android:id="@+id/scan_preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    <Button
+            android:id="@+id/scan_restart"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:background="#66ffcc00"
+            android:gravity="center"
+            android:text="restart scan"
+            android:visibility="gone"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"/>
+
+    <TextView
+            android:id="@+id/scan_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:text="扫描中..."
+            android:textColor="@android:color/white"
+            android:textSize="14sp"/>
+
+</RelativeLayout>
