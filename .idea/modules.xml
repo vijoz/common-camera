@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/camera/camera.iml" filepath="$PROJECT_DIR$/camera/camera.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-base/common-base.iml" filepath="$PROJECT_DIR$/common-base/common-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-camera.iml" filepath="$PROJECT_DIR$/common-camera.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-http/common-http.iml" filepath="$PROJECT_DIR$/common-http/common-http.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-view/common-view.iml" filepath="$PROJECT_DIR$/common-view/common-view.iml" />
     </modules>
   </component>
 </project>
